@@ -37,6 +37,9 @@ const enableDisableDarkmode = () => {
     let iconElementNavbar = darkModeNavbar.childNodes[1]
     
     if (iconElementNavbar.classList[3] == "fa-sun") {
+        logoImg.src = 'assets/logo-dark.png'
+        logoFooter.src = 'assets/logo-footer.png'
+
         iconElementNavbar.classList.remove("fa-sun")
         iconElementNavbar.classList.add("fa-moon")
 
@@ -47,8 +50,7 @@ const enableDisableDarkmode = () => {
         navbar.classList.add('navbar-bg-darkmode')
         navbar.classList.add('navbar-dark')
 
-        logoImg.src = 'assets/logo-dark.png'
-        logoFooter.src = 'assets/logo-footer.png'
+        
 
         body.classList.add('body-bg-darkmode')
         body.classList.remove('bg-body')
@@ -86,6 +88,9 @@ const enableDisableDarkmode = () => {
         footer.classList.add('text-light')
         footer.classList.remove('text-dark')
     } else {
+        logoImg.src = 'assets/logo.png'
+        logoFooter.src = 'assets/logo.png'
+        
         iconElementNavbar.classList.add("fa-sun")
         iconElementNavbar.classList.remove("fa-moon")
 
@@ -96,8 +101,7 @@ const enableDisableDarkmode = () => {
         navbar.classList.remove('navbar-bg-darkmode')
         navbar.classList.remove('navbar-dark')
 
-        logoImg.src = 'assets/logo.png'
-        logoFooter.src = 'assets/logo.png'
+        
         
         body.classList.remove('body-bg-darkmode')
         body.classList.add('bg-body')
