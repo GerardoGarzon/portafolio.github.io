@@ -271,7 +271,7 @@
 
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('assets/ChatMe/icon_light.png');">
+                        style="background-image: url('assets/iMessages/icon_light.png');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">iMessage</h2>
 
@@ -299,7 +299,7 @@
                                     Repositorio
                                 </a>
                                 <a type="button" class="btn btn-light w-100 btn-sm m-3 shadow-2" data-bs-toggle="modal"
-                                    data-bs-target="#weatherModal">
+                                    data-bs-target="#messagesModal">
                                     Vista previa
                                 </a>
                             </div>
@@ -507,7 +507,7 @@
     <!-- Modals carrusels -->
 
     <div class="modal fade" id="visitarModal" tabindex="-1" aria-labelledby="visitarModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-fullscreen">
             <div class="modal-content bg-dark">
                 <div class="modal-body">
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
@@ -574,7 +574,7 @@
     </div>
 
     <div class="modal fade" id="weatherModal" tabindex="-1" aria-labelledby="weatherModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-fullscreen">
             <div class="modal-content bg-dark">
                 <div class="modal-body">
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
@@ -610,6 +610,93 @@
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#weatherModalCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="messagesModal" tabindex="-1" aria-labelledby="messagesModal" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content bg-dark">
+                <div class="modal-body">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <div id="messagesModalCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="0"
+                                class="active shadow-lg" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="7"
+                                aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="8"
+                                aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="9"
+                                aria-label="Slide 10"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="10"
+                                aria-label="Slide 11"></button>
+                            <button type="button" data-bs-target="#messagesModalCaptions" data-bs-slide-to="11"
+                                aria-label="Slide 12"></button>
+                        </div>
+                        <div class="carousel-inner bg-dark carousel-container">
+                            <div class="carousel-item active">
+                                <img src="assets/iMessages/1.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/2.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/3.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/4.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/9.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/10.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/11.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/12.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/13.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/14.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/15.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/iMessages/5.png" class="mx-auto d-block image-size gradient-image">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#messagesModalCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#messagesModalCaptions"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
